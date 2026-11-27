@@ -10,15 +10,14 @@ plugins {
     alias(libs.plugins.animalsniffer)
 }
 
-group = "app.template"
+group = "io.github.vitataf.mxplayer"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "MX Player Patches"
+        description = "Patches for MX Player Pro, including HDR10+ metadata stripping"
+        source = "https://github.com/VitaTaf/mxplayer"
+        author = "VitaTaf"
         contact = "na"
         website = "na"
         license = "GPLv3"
